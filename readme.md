@@ -1,5 +1,7 @@
 # Modal System
 
+![modal window](https://github.com/AwesomeOnPurpose/modal-window-system/blob/main/Screenshots/modal-window-example.png)
+
 This is an implementation of the Modal Window System from the Game Dev Guide channel ([Making a Modal Window in Unity](https://www.youtube.com/watch?v=SzQABx2YTJA)).
 
 The full details of the layout and system are covered in the video, but in short, this is a system to present a modal dialog to the player. It can present text, an image, and multiple interaction options (generally a confirm, cancel, and alternative option). There are vertical and horizontal options to present the data. And the pieces are modular with the help of the Unity UI Layout components.
@@ -10,7 +12,6 @@ The full details of the layout and system are covered in the video, but in short
 2. Added a Scriptable Object to control the colors and fonts of the modal window. 
 
 ### Method Chaining
-
 
 [Method chaining](https://www.infoworld.com/article/3572598/how-to-use-fluent-interfaces-and-method-chaining-in-csharp.html) is a technique in which methods are called on a sequence to form a chain and each of these methods return an instance of a class. These methods can then be chained together so that they form a single statement.
 
@@ -30,6 +31,7 @@ The full details of the layout and system are covered in the video, but in short
 
 This Scriptable Object has fields for most of the styling of the modal window, including the background color, the fonts for the header and content, and all of the styling options for the buttons.
 
+![modal window styling](https://github.com/AwesomeOnPurpose/modal-window-system/blob/main/Screenshots/modal-window-palette.png)
 
 #### Example
 
